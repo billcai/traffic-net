@@ -1,0 +1,26 @@
+<html>
+    <head>
+        {% if title %}
+        <title>{{ title }} - traffic-net SG</title>
+        {% else %}
+        <title>traffic-net SG</title>
+        {% endif %}
+    </head>
+    <body>
+      <div>
+        <p style="text-align:left;">
+        <a href="index">Traffic-Net</a> - Find traffic congestion using deep learning and LTA cameras!
+        <span style="float:right;">
+          Built by <a href="https://www.billcai.com">Bill Cai</a> in 4 evenings with
+          <a href="https://www.tensorflow.org/">
+            Tensorflow</a>,
+          <a href="https://github.com/rochacbruno/flask-powered">
+            Flask</a> and <a href="https://github.com/plotly/plotly.py">
+              Plotly</a>
+        </span>
+        </p>
+        </div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
