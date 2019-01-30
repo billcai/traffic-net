@@ -58,7 +58,7 @@ def plot_main(all_records,mapbox_access_token,output_location):
 
 def plot_single(single_record,output_location):
     single_df = pd.read_csv(single_record)
-    maxlength = min(len(single_record),200)
+    maxlength = min(len(single_df),200)
     data = [
         go.Scatter(
             x=single_df['datetime'][-maxlength+1:],
