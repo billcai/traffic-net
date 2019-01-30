@@ -28,10 +28,15 @@ You need to signup for a Mapbox  account to get a Mapbox Access Token to display
 export FLASK_APP=traffic-net_flask.py
 flask run
 ```
-Then, run the following to start scraping, detecting and visualizing!
+Then, run the following to start scraping and detecting!
 ```
 cd app
 python temp_scraper.py
+```
+And use a separate screen to start visualizing:
+```
+cd app
+python visualize_loop.py
 ```
 And head over to `localhost:5000` to see live traffic conditions in Singapore
 
