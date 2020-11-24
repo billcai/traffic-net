@@ -1,5 +1,5 @@
 # Traffic-Net
-A four evening Tensorflow and Flask app to detect vehicles on live LTA cameras using deep learning-based object detection. Goals: Lightweight, lightning fast and likeable visuals.
+A four evening Tensorflow and Flask app to detect vehicles on live LTA cameras using deep learning-based object detection. Goals: Lightweight, simple (maybe not scalable) and likeable visuals.
 
 ## What is this about?
 A barebones Tensorflow and Flask app that you can deploy! The app downloads images from cameras available on LTA's DataMall, runs fast and accurate a Tensorflow implementation of a trained SSD-Mobilenet object detection model that finds vehicles, and visualizes the results on a main map:
